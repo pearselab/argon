@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="K Bodie Weedop">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./src/css/main.css">
+        <title>ARGON - Not a Database...</title>
+    </head>
+    <body>
+        <header id="fixed-header">
+            <nav id="hidden-topnav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="http://pearselab.com/argon/">About</a></li>
+                    <li><a href="https://github.com/pearselab/argon">Download Data</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScQ5YlNHvLgOOT1iTcGhk8-e5Nq7r9iGLd7_KlUKW8iL9zv3w/viewform">Contribute Data</a></li>
+                    <li><a href="mailto:will.pearse@usu.edu,mrhelmus@temple.edu">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <nav id="sidenav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="http://pearselab.com/argon/">About</a></li>
+                <li><a href="https://github.com/pearselab/argon">Download Data</a></li>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScQ5YlNHvLgOOT1iTcGhk8-e5Nq7r9iGLd7_KlUKW8iL9zv3w/viewform">Contribute Data</a></li>
+                <li><a href="mailto:will.pearse@usu.edu,mrhelmus@temple.edu">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="info">
+            <h1>ARGON</h1>
+            <p>The National Ecological Observatory Network (NEON) is an ambitious project that aims to provide ecologists across the United States of America with a common set of measurements and data. The goal is for NEON data to be the foundation for a new generation of predictive models that drive new insights into how biodiversity and ecosystem function is distributed, and how to humans can manage ecosystems and adapt to global change.</p>
+            <p>All ecological datasets, including NEON, benefit from having more more history and coverage. ARGON (Augmenting Research Grounded On NEON) will augment NEON by bringing together datasets collected anywhere nearby current or potential NEON sites.</p>
+        </div>
+        <div class="data-container">
+          <div class="quarter" id="species">
+            <div class="quarter-container">
+              <div class="quarter-left"><i class="fa fa-pagelines w3-xxxlarge"></i></div>
+              <div class="quarter-right">
+                <h3 id="speciesCount">1000</h3>
+              </div>
+              <div class="quarter-title">
+                <h4>Species</h4>
+              </div>
+            </div>
+          </div>
+          <div class="quarter" id="sites">
+            <div class="quarter-container">
+              <div class="quarter-left">
+                  <i class="fa fa-globe w3-xxxlarge"></i>
+                </div>
+                <div class="quarter-right">
+                  <h3 id="siteCount">99</h3>
+                </div>
+                <div class="quarter-title">
+                    <h4>Sites</h4>
+                </div>
+            </div>
+            </div>
+          <div class="quarter" id="studies">
+            <div class="quarter-container">
+              <div class="quarter-left"><i class="fa fa-file-text w3-xxxlarge"></i></div>
+              <div class="quarter-right">
+                <h3 id="studyCount">200</h3>
+              </div>
+              <div class="quarter-title">
+                    <h4>Studies</h4>
+                </div>
+            </div>
+          </div>
+          <div class="quarter" id="data">
+            <div class="quarter-container">
+              <div class="quarter-left"><i class="fa fa-server w3-xxxlarge"></i></div>
+              <div class="quarter-right">
+                <h3 id="dataCount">> 3 mil</h3>
+              </div>
+              <div class="quarter-title">
+                    <h4>Datapoints</h4>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+            <button id="all-data" onclick="changeData('allData')">All Data</button>
+            <button id="natdb" onclick="changeData('natdb')">NATDB</button>
+            <button id="nacdb" onclick="changeData('nacdb')">NACDB</button>
+        </div>
+        <footer></footer>
+    </body>
+    <script src="./src/js/script.js"></script>
+</html>
