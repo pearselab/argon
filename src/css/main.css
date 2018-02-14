@@ -135,7 +135,7 @@ html, body {
 }
 
 .data-container {
-    padding-top: 120px;
+    padding-top: 80px;
     padding-bottom: 60px;
     padding-left: 0px;
     padding-right: 0px;
@@ -265,4 +265,106 @@ html, body {
 #nacdb:active {
     color: darkcyan;
     transition: 0.2s;
+}
+
+@media screen and (max-width: 991px){
+    .container {
+        margin-left: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 840px){
+    #sidenav {
+        width: 0px;
+        transition: 0.5s;
+    }
+    
+    #hidden-topnav {
+        display: block;
+        transition: 0.9s;
+        font-size: 12px;
+    }
+    
+    #hidden-topnav li{
+        margin: 0px 0px;
+        padding: 3% 4%;
+    }
+    
+    #info {
+        width: 85%;
+        margin-top: 50px;
+        margin-left: 20px;
+        transition: 0.5s;
+    }
+    
+    .data-container {
+        margin-left: 1%;
+        margin-bottom: 140px;
+        padding-top: 10px
+    }
+    
+}
+
+@media screen and (max-width: 640px){
+    #sidenav {
+        width: 0px;
+        transition: 0.5s;
+    }
+    
+    #hidden-topnav {
+        display: block;
+        transition: 0.9s;
+        font-size: 12px;
+    }
+    
+    #hidden-topnav li{
+        margin: 0px 0px;
+        padding: 3% 4%;
+    }
+    
+    #info {
+        width: 85%;
+        margin-top: 50px;
+        margin-left: 20px;
+        transition: 0.5s;
+    }
+    
+    .data-container {
+        margin-left: 10%;
+        margin-bottom: 140px;
+        padding-top: 10px
+    }
+    
+}
+
+@media screen and (max-width: 480px){
+    #sidenav {
+        width: 0px;
+        transition: 0.5s;
+    }
+    
+    #hidden-topnav {
+        display: block;
+        transition: 0.9s;
+        font-size: 10px;
+    }
+    
+    #hidden-topnav li{
+        padding: 3% 4%;
+    }
+    
+    #info {
+        width: 85%;
+        margin-top: 50px;
+        margin-left: 15px;
+        transition: 0.5s;
+    }
+    
+    .data-container {
+        margin-bottom: 140px;
+        margin-left: 35px;
+        padding-top: 10px;
+    }
+    
 }
