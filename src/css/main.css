@@ -105,6 +105,17 @@ html, body {
     transition: 0.5s;
 }
 
+#filled-info {
+    background-color: #fff;
+    position: relative;
+    height: 40%;
+    width:75%;
+    padding: 10px;
+    margin-left: 260px;
+    margin-top: 55px;
+    transition: 0.5s;
+}
+
 @media screen and (max-width: 991px){   
     #info {
         margin-top: 50px;
