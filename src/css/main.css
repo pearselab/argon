@@ -142,7 +142,7 @@ html, body {
 .disclaimer {
     padding: 20px 40px;
     bottom: 0;
-    position: absolute;
+    position: relative;
 }
 
 @media screen and (max-width: 991px){   
