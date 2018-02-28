@@ -1,7 +1,7 @@
 var species = ["1000", "200", "100"];
 var sites = ["1000", "200", "100"];
 var studies = ["1000", "200", "100"];
-var dataPoints = ["1000", "200", "100"];
+var dataPoints = ["1000", "200", "> 2.7 mil"];
 
 function changeData ( choice ) {
     if (choice === "allData") {
