@@ -131,7 +131,7 @@ html, body {
     padding: 20px 40px;
     width: 40%;
     float: left;
-    height:500px;
+    height: 500px;
     display: block;
 }
 
@@ -257,6 +257,13 @@ html, body {
     .quarter-container {
     font-size: 22px;
 }
+        #person-content {
+        padding: 20px 40px;
+        width: 40%;
+        float: left;
+        height:550px;
+        display: block;
+    }
 }
 
 .container {
@@ -312,6 +319,13 @@ html, body {
     .container {
         margin-left: 0px;
     }
+    #person-content {
+        padding: 20px 40px;
+        width: 90%;
+        float: left;
+        height:500px;
+        display: block;
+    }
     
 }
 
@@ -349,7 +363,7 @@ html, body {
         padding: 20px 40px;
         width: 90%;
         float: left;
-        height:500px;
+        height:550px;
         display: block;
     }
 
@@ -402,7 +416,7 @@ html, body {
     padding: 20px 40px;
     width: 90%;
     float: left;
-    height:500px;
+    height:550px;
     }
 
     #person-content img {
@@ -450,10 +464,10 @@ html, body {
     }
     
     #person-content {
-    padding: 20px 40px;
-    width: 90%;
-    float: left;
-    height:500px;
+        padding: 20px 40px;
+        width: 90%;
+        float: left;
+        height:600px;
     }
 
     #person-content img {
